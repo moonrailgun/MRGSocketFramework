@@ -1,0 +1,7 @@
+﻿namespace SocketServerFramework
+{
+    interface IServer
+    {
+
+    }
+}
