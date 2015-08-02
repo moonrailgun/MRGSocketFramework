@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServerFramework", "SocketServerFramework\SocketServerFramework.csproj", "{CDC8783A-8E2C-4A8E-9362-BBF6429660A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRGLogsSystem", "MRGLogsSystem\MRGLogsSystem.csproj", "{6755E7FE-13C7-41C5-8675-2752F6CA49EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{CDC8783A-8E2C-4A8E-9362-BBF6429660A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDC8783A-8E2C-4A8E-9362-BBF6429660A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDC8783A-8E2C-4A8E-9362-BBF6429660A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6755E7FE-13C7-41C5-8675-2752F6CA49EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6755E7FE-13C7-41C5-8675-2752F6CA49EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6755E7FE-13C7-41C5-8675-2752F6CA49EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6755E7FE-13C7-41C5-8675-2752F6CA49EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
