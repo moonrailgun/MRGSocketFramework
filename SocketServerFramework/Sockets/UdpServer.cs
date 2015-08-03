@@ -1,7 +1,7 @@
-﻿namespace SocketServerFramework.Socket
+﻿namespace SocketServerFramework.Sockets
 {
     /// <summary>
-    /// UDP 服务接口
+    /// UDP 服务
     /// </summary>
     class UdpServer
     {

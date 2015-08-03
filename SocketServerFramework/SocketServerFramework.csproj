@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LitJson">
+      <HintPath>..\..\..\Unity3D Project\ACGCard\Assets\Scripts\Network\Util\LitJson.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,9 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IServerSettings.cs" />
+    <Compile Include="Models\DTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Socket\TcpServer.cs" />
-    <Compile Include="Socket\UdpServer.cs" />
+    <Compile Include="Server.cs" />
+    <Compile Include="Sockets\TcpServer.cs" />
+    <Compile Include="Sockets\UdpServer.cs" />
+    <Compile Include="Utils\JsonCoding.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
