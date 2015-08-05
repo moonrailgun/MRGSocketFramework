@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServerFramework", "So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRGLogsSystem", "MRGLogsSystem\MRGLogsSystem.csproj", "{6755E7FE-13C7-41C5-8675-2752F6CA49EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpCommonLib", "HelpCommonLib\HelpCommonLib.csproj", "{AB137916-1261-4BB3-805A-563523B31482}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{6755E7FE-13C7-41C5-8675-2752F6CA49EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6755E7FE-13C7-41C5-8675-2752F6CA49EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6755E7FE-13C7-41C5-8675-2752F6CA49EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB137916-1261-4BB3-805A-563523B31482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB137916-1261-4BB3-805A-563523B31482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB137916-1261-4BB3-805A-563523B31482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB137916-1261-4BB3-805A-563523B31482}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
