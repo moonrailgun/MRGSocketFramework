@@ -46,9 +46,18 @@
     <Compile Include="Models\DTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server.cs" />
+    <Compile Include="Sockets\AsyncTCP\AsyncSendBufferManager.cs" />
+    <Compile Include="Sockets\AsyncTCP\AsyncSocketServer.cs" />
+    <Compile Include="Sockets\AsyncTCP\DynamicBufferManager.cs" />
+    <Compile Include="Sockets\AsyncTCP\SocketInvokeElement.cs" />
+    <Compile Include="Sockets\AsyncTCP\SocketUserClientList.cs" />
+    <Compile Include="Sockets\AsyncTCP\SocketUserToken.cs" />
+    <Compile Include="Sockets\AsyncUDP\SocketUserUDP.cs" />
+    <Compile Include="Sockets\DelegateState.cs" />
     <Compile Include="Sockets\TcpServer.cs" />
     <Compile Include="Sockets\UdpServer.cs" />
     <Compile Include="Utils\JsonCoding.cs" />
+    <Compile Include="Utils\TimeStamp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

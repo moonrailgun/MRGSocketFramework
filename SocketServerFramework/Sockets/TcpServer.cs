@@ -10,7 +10,7 @@ using System.Collections.Generic;
 namespace SocketServerFramework.Sockets
 {
     /// <summary>
-    /// TCP 服务
+    /// 基础TCP 服务
     /// </summary>
     class TcpServer
     {
